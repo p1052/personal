@@ -1,0 +1,185 @@
+body {
+margin: 0;
+font-color: #40514E;
+text-align: center;
+font-family: "Merriweather", serif;
+
+/* In case we write the code as such:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+If the system of the user supports
+Helvetica Neue, then it will show this font in their browser. Otherwise it'll keep checking the given
+order, and finally, in rare cases, if the user's computer supports none of these, it'll show content
+in the default sans-serif font available for their device.
+
+To solve this issue, we can paste a code from font.google by selecting the fonts we want the user's
+computer to support. So, whenever the user opens our website, google will fetch that font for their machine
+and enable it. CHECK head section of the index doc where this code is pasted*/
+}
+
+h1 {
+  margin: 0;
+  position: absolute;
+  left: 430px;
+  top: 100px;
+  color: #333C83;
+  font-family: Sacramento, cursive;
+  font-size: 437%;  /*if you want this font size to remain this way even when the user zooms in, or out or picks
+  another font size in browser settings, you can CONVERT 70px (or the desired font-size) to percentage. 100% = 16px. Therefore, 70/16 = 4.375.
+  So, we need to set the font-size to 437.5%.*/
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #333C83;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #BEBEBE 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 70px auto;
+}
+
+.top-container {
+  background-color: skyblue;
+  position: relative;
+  padding-top: 150px;
+  height: 460px;
+}
+
+.mid-container {
+  margin: 70px 0;
+
+}
+.bottom-container {
+  background-color:
+}
+
+.subtitle {
+  position: absolute;
+  left: 520px;
+  top: 220px;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro-text {
+  margin: auto;
+  width: 50%;
+}
+
+.mount {
+  position: absolute;
+  top: 250px;
+  right: 335px;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  top: 270px;
+  left: 220px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 180px;
+  top: 60px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.comp {
+  width: 25%;
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.chillies {
+  width: 25%;
+  float: right;
+  margin: 0 0 0 30px;
+}
+
+.get-in-touch {
+  width: 50%;
+  margin: auto auto 30px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 30px auto auto auto;
+  padding: 50px 0 18px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.get-in-touch {
+  margin-bottom: 50px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
